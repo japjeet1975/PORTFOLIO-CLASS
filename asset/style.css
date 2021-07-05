@@ -165,18 +165,19 @@ opacity: 50%;
      justify-content: space-between;
      width: 100%;
       }
+ 
       .otherproject {
 	margin: 40px 40px 40px 0 ;
-	/*width: 100%;*/
 	display: flex;
-	flex-wrap: wrap;
-	justify-content: space-around;
+	flex-wrap: wrap;	
 	flex-direction: column;
 	flex: 1;
 	color:black;
-	align-items: stretch;
+	
+	
       }
-      
+
+
       .otherprojectimage {
 	display: flex;
 	flex: 1;
@@ -204,7 +205,7 @@ width: 100%;
 
 
       
-      /* REACH OUT STYLES START */
+      /* contact info styling */
   .contact-info {
 	  background-color: var(--primary-color);
 	  display: flex;
@@ -247,7 +248,7 @@ footer {
       
 
 
-      MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER 
+ MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER 
       @media screen and (max-width: 980px) {
 	header nav ul li a {
 	  font-size :20px;
@@ -255,14 +256,14 @@ footer {
       
 }
       
-      MEDIA QUERY FOR TABLETS AND SMALLER 
+ MEDIA QUERY FOR TABLETS AND SMALLER 
       @media screen and (max-width: 768px) {
 	.otherproject {
 		flex-direction :column;
 	  
          }   }
       
-       MEDIA QUERY FOR MOBILE PHONES AND SMALLER 
+MEDIA QUERY FOR MOBILE PHONES AND SMALLER 
       @media screen and (max-width: 575px) {
       
 header nav ul a {
